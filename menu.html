@@ -1,1 +1,273 @@
-<!DOCTYPE html><html> <head> <meta charset="utf-8"> <title>Haukai Restaurant</title> <link rel="stylesheet" href="styles/styles.css"> <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <meta name="viewport" content="width=device-width, initial-scale=1"> </head> <body> <nav> <div class="w3-top"> <div class="w3-row w3-bar w3-black w3-large w3-padding"> <div class="w3-col s2"><a href="index.html" class="w3-bar-item w3-button" style="margin-left:50px"><img src="assets/images/logo.jpg" alt="Maori design logo"></a></div><div class="w3-col s2"><a href="menu.html" class="w3-bar-item w3-button w3-hide-small" style="margin-left:50px">MENU</a></div><div class="w3-col s2"><a href="reservations.html" class="w3-bar-item w3-button w3-hide-small">RESERVATIONS</a></div><div class="w3-col s2"><a href="hours.html" class="w3-bar-item w3-button w3-hide-small" style="margin-left:40px">HOURS</a></div><div class="w3-col s2"><a href="contact.html" class="w3-bar-item w3-button w3-hide-small">CONTACT</a></div><div class="w3-col s2"><a href="about.html" class="w3-bar-item w3-button w3-hide-small">ABOUT</a></div><div class=""><a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a></div></div><div id="demo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium"> <a href="menu.html" class="w3-bar-item w3-button">MENU</a> <a href="reservations.html" class="w3-bar-item w3-button">RESERVATIONS</a> <a href="hours.html" class="w3-bar-item w3-button">HOURS</a> <a href="contact.html" class="w3-bar-item w3-button">CONTACT</a> <a href="about.html" class="w3-bar-item w3-button">ABOUT</a> </div></div></nav> <main> <div class="w3-container w3-margin-top" id="menu"> <div class="w3-content" style="max-width:700px"> <h1 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h1> <div class="w3-row w3-center w3-card w3-padding"> <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink"> <div class="w3-col s6 tablink">Eat</div></a> <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');"> <div class="w3-col s6 tablink">Drink</div></a> </div><div id="Eat" class="w3-container w3-center menu w3-padding-48 w3-card"> <h2>Appetizers</h2><br><h5>REWENA BREAD</h5> <p class="w3-text-grey">Traditional Māori bread <strong>10</strong></p><br><h5>PAUA FRITTER</h5> <p class="w3-text-grey">Finely diced pieces of paua, served with a side salad and horopito dressing <strong>16</strong></p><br><h5>RAW FISH </h5> <p class="w3-text-grey">Dried snapper fish marinated in coconut cream, served with tomatoes and spring onions <strong>20</strong></p><br><h5>POACHED SALMON</h5> <p class="w3-text-grey">Salmon poached in an orange and pistachio glaze, served with rewena bread <strong>22</strong></p><br><h5>SEAFOOD BASKET</h5> <p class="w3-text-grey">Crumbed mussels, salt and pepper squid, crumbed hoki bites and garlic prawns <strong>25</strong></p><br><h2>Mains</h2><br><h5>FISH OF THE DAY</h5> <p class="w3-text-grey">Beer battered fish and kumara fries, served with a side salad and homemade tartare <strong>25</strong></p><br><h5>MUSSELS AND SCALLOPS</h5> <p class="w3-text-grey">Steamed mussel & scallop mousse, honey and soy broth <strong>25</strong></p><br><h5>SEAFOOD CHOWDER </h5> <p class="w3-text-grey">Creamy chowder filled with terakihi, prawn, hoki, scallops and mussels, served with flatbread <strong>30</strong></p><br><h5>PORK BELLY </h5> <p class="w3-text-grey">Slow cooked pork belly served on a bed of apple slaw with roasted kumara, and crispy noodle <strong>30</strong></p><br><h5>LAMB STEAK </h5> <p class="w3-text-grey">New Zealand Lamb coated in a kawakawa crumb, served with Dijon mustard glazed carrots, roasted butternut squash and a mushroom Jus <strong>33</strong></p><h5>VENISON</h5> <p class="w3-text-grey">Venison crusted with Horopito, served with glazed plums, cabbage salad and red wine Jus <strong>33</strong></p><br><h2>Desserts</h2><br><h5>KAPITI ICE CREAM </h5> <p class="w3-text-grey">Check for daily specials <strong>10</strong></p><br><h5>STEAM PUDDING </h5> <p class="w3-text-grey">Golden syrup flavoured steam pudding, served with vanilla ice cream <strong>12</strong></p><br><h5>MINI PAVLOVA </h5> <p class="w3-text-grey">Mini Pavlova, served with kawakawa and lemon infused cream and fresh fruit <strong>16</strong></p><br><h5>BANOFFEE PIE </h5> <p class="w3-text-grey">Toffee, fresh bananas and fresh cream <strong>16</strong></p><br></div><div id="Drinks" class="w3-container menu w3-padding-48 w3-card"> <h2 class="w3-center">Beverages</h2><br><table class="w3-table"> <tr> <th>RED</th> <th>B/G</th> </tr><tr> <td>Terrace Edge Pinot Noir, 2012, Wairarapa</td><td>53/13</td></tr><tr> <td>Altitude Pinot Noir, 2010, Marlborough </td><td>64/15</td></tr><tr> <td>Greystone Pinot Noir, 2012, Wairarapa</td><td>73/17</td></tr><tr> <td>Terrace Edge, Syrah, 2012 Wairarapa</td><td>53/13</td></tr><tr> <td>Altitude Syrah, 2010 Marlborough </td><td>64/15</td></tr><tr> <td>Greystone Syrah, 2012, Wairarapa </td><td>73/17</td></tr><tr> <td>Pegasus Bay Merlot, 2013, Waipara</td><td>65/14</td></tr><tr> <td>Pegasus Bay Pinot Noir, 2013, Waipara</td><td>110</td></tr><tr> <th>WHITE</th> <th></th> </tr><tr> <td>Spade Oak Pinot Gris, 2011, Gisborne</td><td>40/10</td></tr><tr> <td>Maude Pinot Gris, 2017, Otago</td><td>49.5/11</td></tr><tr> <td>Charles Wiffen Chardonnay, 2013, Otago</td><td>48/11</td></tr><tr> <td>Amisfield, Riesling, 2016, Otago</td><td>53/12</td></tr><tr> <td>Lamont Riesling, 2010, Otago</td><td>57/13</td></tr><tr> <td>Elephant Hill Viognier, 2013, Hawkes Bay</td><td>55/12</td></tr><tr> <td>Folium Sauvignon Blanc, 2011, Marlborough</td><td>52/11</td></tr><tr> <td>Billecart-Salmon Brut Reserve, France</td><td>120</td></tr><tr> <th>BEER AND CIDER</th> <th></th> </tr><tr> <td>Garage project range</td><td>11</td></tr><tr> <td>Tuatara range</td><td>11</td></tr><tr> <td>Panhead range</td><td>10</td></tr><tr> <td>Coopers Ale</td><td>10</td></tr><tr> <td>Heineken</td><td>11</td></tr><tr> <td>Moa Cider</td><td>10</td></tr><tr> <td>Crooked Cider</td><td>10</td></tr><tr> <th>NON ALCOHOLIC</th> <th></th> </tr><tr> <td>Mineral water</td><td>4</td></tr><tr> <td>Soft drinks </td><td>4</td></tr><tr> <td>Juice</td><td>4</td></tr><tr> <td>Coffee</td><td>4.5</td></tr><tr> <td>Tea</td><td>3.5</td></tr></table> </div></div></div></main> <footer> <div class="w3-bar w3-black w3-row w3-center"> <div class="w3-col s4 w3-bar-item w3-mobile"> <h4>Contact Haukai</h4> <p>09 401 4019</p><p>diannerosemay@gmail.com</p></div><div class="w3-col s4 w3-bar-item w3-mobile"> <a href="#" class="fa fa-facebook"></a> <a href="#" class="fa fa-twitter"></a> <a href="#" class="fa fa-google"></a> </div><div class="w3-col s4 w3-bar-item w3-mobile"> <a href="reservations.html"><h5>Reservations</h5></a> <br><a href="privacystatement.html"><h5>Privacy Statement</h5></a> </div></div></footer> <script>// Tabbed Menu function openMenu(evt, menuName){var i, x, tablinks; x=document.getElementsByClassName("menu"); for (i=0; i < x.length; i++){x[i].style.display="none";}tablinks=document.getElementsByClassName("tablink"); for (i=0; i < x.length; i++){tablinks[i].className=tablinks[i].className.replace(" w3-dark-grey", "");}document.getElementById(menuName).style.display="block"; evt.currentTarget.firstElementChild.className +=" w3-dark-grey";}document.getElementById("myLink").click(); </script> </body> </html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Haukai Restaurant</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <nav>
+      <div class="w3-top">
+      <div class="w3-row w3-bar w3-black w3-large w3-padding">
+        <div class="w3-col s2"><a href="index.html" class="w3-bar-item w3-button" style="margin-left:50px"><img src="assets/images/logo.jpg" alt="Maori design logo"></a></div>
+        <div class="w3-col s2"><a href="menu.html" class="w3-bar-item w3-button w3-hide-small" style="margin-left:50px">MENU</a></div>
+        <div class="w3-col s2"><a href="reservations.html" class="w3-bar-item w3-button w3-hide-small">RESERVATIONS</a></div>
+        <div class="w3-col s2"><a href="hours.html" class="w3-bar-item w3-button w3-hide-small" style="margin-left:40px">HOURS</a></div>
+        <div class="w3-col s2"><a href="contact.html" class="w3-bar-item w3-button w3-hide-small">CONTACT</a></div>
+        <div class="w3-col s2"><a href="about.html" class="w3-bar-item w3-button w3-hide-small">ABOUT</a></div>
+        <div class=""><a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a></div>
+      </div>
+      <div id="demo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+        <a href="menu.html" class="w3-bar-item w3-button">MENU</a>
+        <a href="reservations.html" class="w3-bar-item w3-button">RESERVATIONS</a>
+        <a href="hours.html" class="w3-bar-item w3-button">HOURS</a>
+        <a href="contact.html" class="w3-bar-item w3-button">CONTACT</a>
+        <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+      </div>
+    </div>
+    </nav>
+    <main>
+      <!-- Menu Container -->
+<div class="w3-container w3-margin-top" id="menu">
+  <div class="w3-content" style="max-width:700px">
+
+    <h1 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h1>
+
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">Eat</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">Drink</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container w3-center menu w3-padding-48 w3-card">
+      <h2>Appetizers</h2><br>
+      <h5>REWENA BREAD</h5>
+      <p class="w3-text-grey">Traditional Māori bread <strong>10</strong></p><br>
+
+      <h5>PAUA FRITTER</h5>
+      <p class="w3-text-grey">Finely diced pieces of paua, served with a side salad and horopito dressing <strong>16</strong></p><br>
+
+      <h5>RAW FISH  </h5>
+      <p class="w3-text-grey">Dried snapper fish marinated in coconut cream, served with tomatoes and spring onions <strong>20</strong></p><br>
+
+      <h5>POACHED SALMON</h5>
+      <p class="w3-text-grey">Salmon poached in an orange and pistachio glaze, served with rewena bread <strong>22</strong></p><br>
+
+      <h5>SEAFOOD BASKET</h5>
+      <p class="w3-text-grey">Crumbed mussels, salt and pepper squid, crumbed hoki bites and garlic prawns <strong>25</strong></p>
+
+      <br><h2>Mains</h2><br>
+      <h5>FISH OF THE DAY</h5>
+      <p class="w3-text-grey">Beer battered fish and kumara fries, served with a side salad and homemade tartare <strong>25</strong></p><br>
+
+      <h5>MUSSELS AND SCALLOPS</h5>
+      <p class="w3-text-grey">Steamed mussel & scallop mousse, honey and soy broth <strong>25</strong></p><br>
+
+      <h5>SEAFOOD CHOWDER  </h5>
+      <p class="w3-text-grey">Creamy chowder filled with terakihi, prawn, hoki, scallops and mussels, served with flatbread <strong>30</strong></p><br>
+
+      <h5>PORK BELLY </h5>
+      <p class="w3-text-grey">Slow cooked pork belly served on a bed of apple slaw with roasted kumara, and crispy noodle <strong>30</strong></p><br>
+
+      <h5>LAMB STEAK  </h5>
+      <p class="w3-text-grey">New Zealand Lamb coated in a kawakawa crumb, served with Dijon mustard glazed carrots, roasted butternut squash and a mushroom Jus <strong>33</strong></p>
+      <h5>VENISON</h5>
+      <p class="w3-text-grey">Venison crusted with Horopito, served with glazed plums, cabbage salad and red wine Jus <strong>33</strong></p>
+
+      <br><h2>Desserts</h2><br>
+      <h5>KAPITI ICE CREAM  </h5>
+      <p class="w3-text-grey">Check for daily specials <strong>10</strong></p><br>
+
+      <h5>STEAM PUDDING  </h5>
+      <p class="w3-text-grey">Golden syrup flavoured steam pudding, served with vanilla ice cream <strong>12</strong></p><br>
+
+      <h5>MINI PAVLOVA  </h5>
+      <p class="w3-text-grey">Mini Pavlova, served with kawakawa and lemon infused cream and fresh fruit <strong>16</strong></p><br>
+
+      <h5>BANOFFEE PIE </h5>
+      <p class="w3-text-grey">Toffee, fresh bananas and fresh cream <strong>16</strong></p><br>
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h2 class="w3-center">Beverages</h2><br>
+      <table class="w3-table">
+        <tr>
+          <th>RED</th>
+          <th>B/G</th>
+        </tr>
+        <tr>
+          <td>Terrace Edge Pinot Noir, 2012, Wairarapa</td>
+          <td>53/13</td>
+        </tr>
+        <tr>
+          <td>Altitude Pinot Noir, 2010, Marlborough </td>
+          <td>64/15</td>
+        </tr>
+        <tr>
+          <td>Greystone Pinot Noir, 2012, Wairarapa</td>
+          <td>73/17</td>
+        </tr>
+        <tr>
+          <td>Terrace Edge, Syrah, 2012 Wairarapa</td>
+          <td>53/13</td>
+        </tr>
+        <tr>
+          <td>Altitude Syrah, 2010 Marlborough </td>
+          <td>64/15</td>
+        </tr>
+        <tr>
+          <td>Greystone Syrah, 2012, Wairarapa </td>
+          <td>73/17</td>
+        </tr>
+        <tr>
+          <td>Pegasus Bay Merlot, 2013, Waipara</td>
+          <td>65/14</td>
+        </tr>
+        <tr>
+          <td>Pegasus Bay Pinot Noir, 2013, Waipara</td>
+          <td>110</td>
+        </tr>
+
+        <tr>
+          <th>WHITE</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>Spade Oak Pinot Gris, 2011, Gisborne	</td>
+          <td>40/10</td>
+        </tr>
+        <tr>
+          <td>Maude Pinot Gris, 2017, Otago</td>
+          <td>49.5/11</td>
+        </tr>
+        <tr>
+          <td>Charles Wiffen Chardonnay, 2013, Otago</td>
+          <td>48/11</td>
+        </tr>
+        <tr>
+          <td>Amisfield, Riesling, 2016, Otago</td>
+          <td>53/12</td>
+        </tr>
+        <tr>
+          <td>Lamont Riesling, 2010, Otago</td>
+          <td>57/13</td>
+        </tr>
+        <tr>
+          <td>Elephant Hill Viognier, 2013, Hawkes Bay</td>
+          <td>55/12</td>
+        </tr>
+        <tr>
+          <td>Folium Sauvignon Blanc, 2011, Marlborough</td>
+          <td>52/11</td>
+        </tr>
+        <tr>
+          <td>Billecart-Salmon Brut Reserve, France</td>
+          <td>120</td>
+        </tr>
+        <tr>
+          <th>BEER AND CIDER</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>Garage project range</td>
+          <td>11</td>
+        </tr>
+        <tr>
+          <td>Tuatara range</td>
+          <td>11</td>
+        </tr>
+        <tr>
+          <td>Panhead range</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Coopers Ale</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Heineken</td>
+          <td>11</td>
+        </tr>
+        <tr>
+          <td>Moa Cider</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Crooked Cider</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <th>NON ALCOHOLIC</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>Mineral water</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Soft drinks </td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Juice</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Coffee</td>
+          <td>4.5</td>
+        </tr>
+        <tr>
+          <td>Tea</td>
+          <td>3.5</td>
+        </tr>
+        </table>
+    </div>
+  </div>
+</div>
+    </main>
+
+    <footer>
+      <div class="w3-bar w3-black w3-row w3-center">
+        <div class="w3-col s4 w3-bar-item w3-mobile">
+          <h4>Contact Haukai</h4>
+          <p>09 401 4019</p>
+          <p>diannerosemay@gmail.com</p>
+        </div>
+        <div class="w3-col s4 w3-bar-item w3-mobile">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-google"></a>
+        </div>
+        <div class="w3-col s4 w3-bar-item w3-mobile">
+          <a href="reservations.html"><h5>Reservations</h5></a>
+          <br>
+          <a href="privacystatement.html"><h5>Privacy Statement</h5></a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // Tabbed Menu
+      function openMenu(evt, menuName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("menu");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+        }
+        document.getElementById(menuName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+      }
+      document.getElementById("myLink").click();
+      </script>
+  </body>
+  </html>
