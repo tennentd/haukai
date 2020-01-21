@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Haukai Restaurant</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <nav>
+      <div class="w3-top">
+      <div class="w3-row w3-bar w3-black w3-large w3-padding">
+        <div class="w3-col s2"><a href="index.html" class="w3-bar-item w3-button"><img src="assets/images/logo.jpg"></a></div>
+        <div class="w3-col s2"><a href="menu.html" class="w3-bar-item w3-button w3-hide-small">MENU</a></div>
+        <div class="w3-col s2"><a href="reservations.html" class="w3-bar-item w3-button w3-hide-small">RESERVATIONS</a></div>
+        <div class="w3-col s2"><a href="hours.html" class="w3-bar-item w3-button w3-hide-small">HOURS</a></div>
+        <div class="w3-col s2"><a href="contact.html" class="w3-bar-item w3-button w3-hide-small">CONTACT</a></div>
+        <div class="w3-col s2"><a href="about.html" class="w3-bar-item w3-button w3-hide-small">ABOUT</a></div>
+        <div class=""><a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a></div>
+      </div>
+      <div id="demo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+        <a href="menu.html" class="w3-bar-item w3-button">MENU</a>
+        <a href="reservations.html" class="w3-bar-item w3-button">RESERVATIONS</a>
+        <a href="hours.html" class="w3-bar-item w3-button">HOURS</a>
+        <a href="contact.html" class="w3-bar-item w3-button">CONTACT</a>
+        <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+      </div>
+    </div>
+    </nav>
+    <div class="w3-container w3-center w3-margin-top">
+      <h1 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">OPENING HOURS</span></h1>
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Pacific%2FAuckland&amp;src=cDc0cWdrcGo0MWNmNm1hb3JqN2EybnJvcmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4ubmV3X3plYWxhbmQjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23227F63&amp;color=%231F753C&amp;mode=MONTH&amp;showTitle=0&amp;showNav=0&amp;showCalendars=0&amp;title=Haukai%20Opening%20Hours" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("demo");
+          if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+          } else { 
+            x.className = x.className.replace(" w3-show", "");
+          }
+        }
+        </script>
+    </body>
+  </html>

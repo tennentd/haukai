@@ -2,38 +2,58 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Matahi Historical Society homepage</title>
+    <title>Haukai Restaurant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+    
   </head>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("demo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
   <body>
-    <!-- Here is our main header that is used across all the pages of our website -->
-    <header class="header">
-      <h1>Matahi Historical Society</h1>
-    </header>
-    <nav class="topnav">
-      <a href="#" class="topnav">Home</a></li>
-      <a href="#" class="topnav">Browse photos</a></li>
-      <a href="#" class="topnav">Submit photos</a></li>
-      <a href="#" class="topnav">Contact</a></li>
-    </nav>
-    <!-- Here is our page's main content -->
-    <main>
-      <div class="row">
-        <div class="column">
-          <h2>Column 1</h2>
-          <p>Paragraph 1.</p>
-          <p>Paragraph 2.</p>
-        </div>
-        <div class="column">
-          <h2>Column 2</h2>
-          <p>Paragraph 1.</p>
-          <p>Paragraph 2.</p>
-        </div>
+  <nav>
+    <div class="w3-top">
+    <div class="w3-row w3-bar w3-black w3-large w3-padding">
+      <div class="w3-col s2"><a href="index.html" class="w3-bar-item w3-button"><img src="assets/images/logo.jpg"></a></div>
+      <div class="w3-col s2"><a href="menu.html" class="w3-bar-item w3-button w3-hide-small">MENU</a></div>
+      <div class="w3-col s2"><a href="reservations.html" class="w3-bar-item w3-button w3-hide-small">RESERVATIONS</a></div>
+      <div class="w3-col s2"><a href="hours.html" class="w3-bar-item w3-button w3-hide-small">HOURS</a></div>
+      <div class="w3-col s2"><a href="contact.html" class="w3-bar-item w3-button w3-hide-small">CONTACT</a></div>
+      <div class="w3-col s2"><a href="about.html" class="w3-bar-item w3-button w3-hide-small">ABOUT</a></div>
+      <div class=""><a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a></div>
+    </div>
+    <div id="demo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+      <a href="menu.html" class="w3-bar-item w3-button">MENU</a>
+      <a href="reservations.html" class="w3-bar-item w3-button">RESERVATIONS</a>
+      <a href="hours.html" class="w3-bar-item w3-button">HOURS</a>
+      <a href="contact.html" class="w3-bar-item w3-button">CONTACT</a>
+      <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+    </div>
+  </div>
+  </nav>
+
+    <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+      <div class="w3-display-topleft w3-center">
+        <h1 class="w3-text-black bgtext" style="font-size:90px">Haukai</h1>
       </div>
-    </main>
-    <!-- And here is our main footer that is used across all the pages of our website -->
-    <footer class="footer">
-      <p>©Copyright 2018 by Matahi Historical Society. All rights reversed.</p>
-    </footer>
+    </header>
+
+  
+
+
+
+      <footer>
+
+      </footer>
+
   </body>
-</html>
+  </html>
