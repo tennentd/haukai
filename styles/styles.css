@@ -17,9 +17,17 @@ td {
   padding-left: 160px;
   }
 
+#logo {
+  margin-left: 50px;
+}
+
 @media screen and (max-width: 600px) {
   .bgtext {
     display: none;
+  }
+
+  #logo {
+    margin-left: 0px;
   }
 }
 
