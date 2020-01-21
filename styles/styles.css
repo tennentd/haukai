@@ -21,6 +21,11 @@ td {
   margin-left: 50px;
 }
 
+#cover {
+  width:100%
+}
+
+
 @media screen and (max-width: 600px) {
   .bgtext {
     display: none;
@@ -28,6 +33,10 @@ td {
 
   #logo {
     margin-left: 0px;
+  }
+
+  #cover {
+    margin-top: 60px;
   }
 }
 
